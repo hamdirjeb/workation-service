@@ -36,4 +36,8 @@ public class Workation {
     @Column(name = "risk")
     private String risk;
 
+    public Workation(String workationId, String employee) {
+        this.workationId =  workationId;
+        this.employee =  employee;
+    }
 }

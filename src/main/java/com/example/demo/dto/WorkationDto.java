@@ -29,4 +29,8 @@ public class WorkationDto implements Serializable {
 
     private String risk;
 
+    public WorkationDto(String workationId, String employee) {
+        this.workationId =  workationId;
+        this.employee =  employee;
+    }
 }
